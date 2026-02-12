@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    text-align: center;
+    background: url(https://avatars.mds.yandex.net/i?id=8db0c747b3fb06e6aff504caedec17053c8024d3-5099353-images-thumbs&n=13) ;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 1200px;
+    margin: auto;
+}
+.product {
+    border: 1px solid #0059ff;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.total {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff0000;
+}
+.br br br patapim{
+color: aqua;
+}
+.pr{
+background-color: #00ff4c;
+height: 28px;
+width: 60px;
+background: url(https://avatars.mds.yandex.net/i?id=8db0c747b3fb06e6aff504caedec17053c8024d3-5099353-images-thumbs&n=13) ;
+}
+.br br br {
+color: white;
+}
